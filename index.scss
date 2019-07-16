@@ -1,0 +1,105 @@
+@import "./common";
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: rgb(217, 255, 0);
+}
+
+;
+.container {
+  position: relative;
+  width: 90%;
+  padding: 0;
+  text-align: center;
+  margin: 0 auto 0px auto;
+}
+
+.gameboard {
+  width: 500px;
+  height: 400px;
+  margin: 25px auto;
+}
+
+.gameboard ul {
+  position: relative;
+  margin: 0;
+  left: 4%;
+}
+
+.gridrow li {
+  display: inline-block;
+  border-right: 2px solid rgb(16, 142, 201);
+  border-bottom: 2px solid  rgb(16, 142, 201);
+  height: 150px;
+  width: 150px;
+  max-height: 150px;
+  max-width: 150px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#y1x3,
+#y2x3,
+#y3x3 {
+  border-right: 0;
+}
+
+#y3x1,
+#y3x2,
+#y3x3 {
+  border-bottom: 0;
+}
+
+.gridrow {
+  padding: 0;
+}
+
+.square {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 125px;
+}
+
+.square p {
+  margin-top: 5px;
+}
+
+#message-area {
+  height: 200px;
+  width: 50%;
+  margin: 50px auto;
+  font-family: Arial, Helvetica,sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.choose {
+  border: 1px solid rgb(243, 27, 27);
+  margin: 0 30px 0 30px;
+  font-size: 100px;
+  padding: 0 20px 0 20px;
+}
+
+.win p {
+  color: red !important;
+}
+
+.reset-area {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+}
+
+.reset-area button {
+  width: 100px;
+  height: 75px;
+  background-color: silver;
+  color: black;
+  font-size: 20px;
+}

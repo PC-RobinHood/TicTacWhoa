@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="shortcut icon" href=".public/assets/" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+    />
+    <link rel="stylesheet" href="bundle-index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gameboard">
+        <ul id="row1" class="gridrow">
+          <li id="y1x1"><span class="square"></span></li>
+          <li id="y1x2"><span class="square"></span></li>
+          <li id="y1x3"><span class="square"></span></li>
+        </ul>
+        <ul id="row2" class="gridrow">
+          <li id="y2x1"><span class="square"></span></li>
+          <li id="y2x2"><span class="square"></span></li>
+          <li id="y2x3"><span class="square"></span></li>
+        </ul>
+        <ul id="row3" class="gridrow">
+          <li id="y3x1"><span class="square"></span></li>
+          <li id="y3x2"><span class="square"></span></li>
+          <li id="y3x3"><span class="square"></span></li>
+        </ul>
+      </div>
+      <div id='message-area'>
+        <h1><span class='choose' data='X'>X</span>CHOOSE<span class='choose' data='O'>O</span></h1>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="bundle-index.js" async></script>
+  </body>
+</html>
